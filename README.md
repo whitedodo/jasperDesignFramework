@@ -14,8 +14,12 @@
 
 > ##### 4. License: Apache License.
 
+
+
 #### 빌드(Build)
 > ##### 1. Apache 2, PHP 5, PHP 7환경에 넣어서 사용하면 된다.(Can be used in Apache 2, PHP 5, PHP 7 environment.)
+
+
 
 #### Quick Start(쉬운 시작)
 > ##### 1. resultOfCamera.php, resultOfDrawing.php, resultOfViewer.php, upload.php 파일의 경로를 수정하면 된다.
@@ -30,6 +34,7 @@
 )
 > ##### 5. 스냅샷에 관한 실행은 다음과 같이 하면 된다. (The implementation of Snap Shot can be as follows.) / Dodo / 2018-08-26
 ( localhost / {userDirectory} / streamingSnap.php)
+
 
 
 #### Reference(참고)
