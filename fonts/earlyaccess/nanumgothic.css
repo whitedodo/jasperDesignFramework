@@ -1,0 +1,19 @@
+@font-face {
+font-family: 'Nanum Gothic';
+font-style: normal;
+font-weight: 400;
+src: local('NanumGothic'), url('https://whitedodo.github.io/fonts/nanumgothic/v9/PN_3Rfi-oW3hYwmKDpxS7F_D-djY.woff') format('woff');
+ }
+
+@font-face {
+font-family: 'Nanum Gothic';
+font-style: normal;
+font-weight: 700;
+src: local('NanumGothic Bold'), local('NanumGothic-Bold'), url('https://whitedodo.github.io/fonts/nanumgothic/v9/PN_oRfi-oW3hYwmKDpxS7F_LQv3LyVsg.woff') format('woff');
+}
+@font-face {
+font-family: 'Nanum Gothic';
+font-style: normal;
+font-weight: 800;
+src: local('NanumGothic ExtraBold'), local('NanumGothic-ExtraBold'), url('https://whitedodo.github.io/fonts/nanumgothic/v9/PN_oRfi-oW3hYwmKDpxS7F_LXv7LyVsg.woff') format('woff');
+}

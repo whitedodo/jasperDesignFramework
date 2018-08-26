@@ -1,0 +1,52 @@
+/*
+ * Created Date: 2018-08-24
+ * Subject: myAudio
+ * FileName: myAudio.css
+ * Version: 0.1
+ * Author: Dodo(rabbit.white at daum dot net)
+ * Description:
+ * 2018-08-24 / Dodo / 
+ */
+
+.tg_myAudio { 
+	overflow: hidden;
+	font: 14pt Arial, sans-serif; 
+	background: #FFF;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0 0;
+}
+.tg_myAudio td{
+	height: 150px;
+}
+
+canvas { 
+	display: inline-block; 
+	background: #202020; 
+	width: 95%;
+	height: 45%;
+	box-shadow: 0px 0px 10px blue;
+}
+
+#record { height: 35px; }
+#record.recording { 
+	// background: #FFF;
+	background: -webkit-radial-gradient(center, ellipse cover, #ff0059 0%,lightgrey 50%,lightgrey 50%,#ef2f83 0%); 
+	background: -moz-radial-gradient(center, ellipse cover, #ff0059 0%,lightgrey 50%,lightgrey 50%,#ef2f83 0%); 
+	background: radial-gradient(center, ellipse cover, #ff0059 0%,lightgrey 50%,lightgrey 50%,#ef2f83 00%); 
+}
+
+#visualInterfaceAudio {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+@media (orientation: landscape) {
+	body { flex-direction: row;}
+	#controls { flex-direction: column; height: 100%; width: 10%;}
+	#viz { height: 100%; width: 90%;}
+}
